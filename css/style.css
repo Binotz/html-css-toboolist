@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* Elements */
@@ -20,6 +21,11 @@ main{
     background-color: #f6f8f9;
 }
 
+ul{
+    list-style-type: none;
+    font-weight: 800;
+    font-size: 25px;
+}
 
 /* Common */
 
@@ -40,7 +46,6 @@ main{
 
 .logo-text{
     display: inline-block;
-    font-family: sans-serif;
     vertical-align: middle;
     font-weight: 800;
 }
@@ -73,4 +78,70 @@ main{
     background-color: white;
     color: #d9dde0;
     border-color: #d9dde0;
+}
+
+/* Tasks */
+
+.task-container{
+    margin: 50px;
+    /* background-color: red; */
+}
+
+.task{
+    padding: 15px;
+}
+
+.checked{
+    color:#87cfbe;
+    border: 1px solid #87cfbe;
+    border-radius: 50%;
+}
+.unchecked{
+    color:red;
+    border: 1px solid red;
+    border-radius: 50%;    
+}
+
+.task-text{
+    font-weight: 500;
+}
+
+/* Task categories */
+
+.task-category{
+    
+}
+
+/* Default Category */
+.task-tag{
+    color: white;
+    font-size: 15px;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+/* Other task categories */
+.task-editorial{
+    background-color: #45abea;
+}
+
+.task-q1-goals{
+    background-color: #9c72e4;
+}
+
+.task-recruiting{
+    background-color: #64c0a9;
+}
+
+.task-mobile{
+    background-color: #f29e33;
+}
+
+.task-website{
+    background-color: #d863a1;
+}
+
+.task-sales{
+    background-color: #b0c926;
 }
