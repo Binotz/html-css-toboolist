@@ -102,12 +102,20 @@ ul{
 .checked{
     color:#87cfbe;
     border: 1px solid #87cfbe;
+    display: inline-block;
     border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
 }
 .unchecked{
     color:red;
     border: 1px solid red;
+    display: inline-block;
     border-radius: 50%;    
+    width: 30px;
+    height: 30px;
+    text-align: center;
 }
 
 .task-text{
