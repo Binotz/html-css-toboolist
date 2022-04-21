@@ -1,0 +1,23 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header{
+    background-color: white;
+}
+
+.logo-img{
+    margin: 10px 5px 10px 15px;
+    vertical-align: middle;
+}
+
+.logo-text{
+    display: inline-block;
+    font-family: sans-serif;
+    vertical-align: middle;
+    font-weight: 800;
+}
