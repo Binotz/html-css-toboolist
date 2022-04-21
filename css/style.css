@@ -17,6 +17,10 @@ header{
     background-color: white;
 }
 
+body{
+    background-color: #f6f8f9;
+}
+
 main{
     background-color: #f6f8f9;
     padding: 30px;
